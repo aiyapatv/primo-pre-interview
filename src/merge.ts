@@ -1,4 +1,4 @@
-function merge(collection_1: number[], collection_2: number[], collection_3: number[]) : number[] {
+export default function merge(collection_1: number[], collection_2: number[], collection_3: number[]) : number[] {
     const result: number[] = [];
 
     let i = 0, j = 0;
